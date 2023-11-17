@@ -13,7 +13,7 @@ header {
 }
 
 .second-section {
-  background-image: url(/public/images/background-image.jpg); /* Replace with the path to your background image */
+  background-image: url('/public/images/background-image.jpg'); /* Replace with the path to your background image */
   background-size: cover;
   background-position: center;
   color: #fff; /* Set your desired text color */
