@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #212657; /* Set your desired grey color */
+  color: #fff; /* Set your desired text color */
+  padding: 10px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.second-section {
+  background-image: url(/public/images/background-image.jpg); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set your desired text color */
+  padding: 50px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.second-section h2 {
+  font-size: 2em;
+}
+
+.second-section p {
+  font-size: 1.2em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5em; /* Adjust font size */
+}
+
+p {
+  font-size: 1em; /* Adjust font size */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li:first-child {
+  margin-right: auto; /* Pushes the logo to the far left */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Set your desired link color */
+  font-weight: bold;
+  font-size: 1em;
+}
